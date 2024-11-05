@@ -1,7 +1,7 @@
 import heapq
 from collections import defaultdict
 
-def huffman_encode(input_string):
+def Huffman_coding(input_string):
     # Calculate frequency of each character
     frequency = defaultdict(int)
     for char in input_string:
